@@ -1,4 +1,4 @@
-# Frontend Mentor - The Project Name
+# Frontend Mentor - product-preview-card-component-v1.0
 
 **Table of Contents**
 
@@ -6,15 +6,15 @@
 
 Welcome to my solution page. I hope you'll find some good implemantions for this project here.
 
-![The Project Name](./The-Preview-Image-in-your-design-directory.jpg)
+![product-preview-card-component-v1.0](./design/desktop-preview.jpg)
 
 ## Links
 
-- [My Live Site](My-live-site-in-github.io)
+- [My Live Site](https://github.com/adonmez04/product-preview-card-component-v1)
 
-- [My Solution Page](My-Project-Page-in-frontendmentor.io)
+<!-- - [My Solution Page](My-Project-Page-in-frontendmentor.io) -->
 
-- [The Challenge Page](Add-the-link-from-then-https://www.frontendmentor.io/challenges)
+- [The Challenge Page](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
 <!-- ## Overview -->
 
