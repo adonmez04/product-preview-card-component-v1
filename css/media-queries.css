@@ -1,9 +1,12 @@
 /* THE DESKTOP SETTINGS */
 /* Above the 700px */
 
-@media (min-width: 700px) {
+@media (min-width: 400px) {
   .section-product {
     max-width: 600px;
+
+    border-radius: 10px;
+    overflow: hidden;
 
     /* The Flexbox Template */
     flex-direction: row;

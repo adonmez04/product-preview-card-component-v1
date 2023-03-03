@@ -36,6 +36,9 @@ body {
 .section-product {
   max-width: 343px;
 
+  border-radius: 10px;
+  overflow: hidden;
+
   /* The Flexbox Template */
   display: flex;
   flex-direction: column;
@@ -43,8 +46,6 @@ body {
 
 .section-product__img-area {
   background: #ffffff;
-  border-radius: 10px 10px 0px 0px;
-  overflow: hidden;
 }
 
 .section-product__b-img {
