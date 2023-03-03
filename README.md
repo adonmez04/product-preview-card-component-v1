@@ -12,7 +12,7 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 - [My Live Site](https://github.com/adonmez04/product-preview-card-component-v1)
 
-<!-- - [My Solution Page](My-Project-Page-in-frontendmentor.io) -->
+- [My Solution Page](https://www.frontendmentor.io/solutions/productpreviewcardcomponentv10-EdUUQ8wUxM)
 
 - [The Challenge Page](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
