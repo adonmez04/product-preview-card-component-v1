@@ -1,0 +1,158 @@
+/* THE MOBILE FIRST SOLUTION */
+/* Under the 700px */
+
+/**********************/
+/* The Global Styles */
+/**********************/
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Fraunces', serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background: #f2eae2;
+
+  /* To center the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/**********************/
+/* The Component Styles */
+/**********************/
+
+.section-product {
+  max-width: 343px;
+}
+
+.section-product__img-area {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.section-product__img {
+  display: block;
+  max-width: 343px;
+  max-height: 240px;
+}
+
+.section-product__content-area {
+  padding: 24px;
+  background-color: #fff;
+}
+
+.section-product__text-area {
+  /* empty */
+}
+
+.section-product__subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  color: #6c7289;
+
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.section-product__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #1c232b;
+
+  margin-bottom: 16px;
+}
+
+.section-product__description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #6c7289;
+
+  margin-bottom: 24px;
+}
+
+.section-product__price-area {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 20px;
+}
+
+.section-product__discount-price {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #3d8168;
+
+  margin-left: 0.5px;
+}
+
+.section-product__normal-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  color: #6c7289;
+}
+
+.btn-area {
+  /* empty */
+}
+
+.btn-icon {
+  background: url(../images/icon-cart.svg);
+  width: 14.39px;
+  height: 16px;
+}
+
+.btn:link,
+.btn:active {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+
+  text-decoration: none;
+  margin-left: 1px;
+
+  /* To add the padding */
+  display: inline-block;
+  width: 295px;
+  height: 48px;
+  background: #3d8168;
+  border-radius: 8px;
+
+  /* To center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11.61px;
+}
