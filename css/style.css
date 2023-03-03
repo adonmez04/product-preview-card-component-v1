@@ -54,6 +54,8 @@ body {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+
+  filter: brightness(90%);
 }
 
 .section-product__content-area {
