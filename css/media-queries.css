@@ -1,0 +1,57 @@
+/* THE DESKTOP SETTINGS */
+/* Above the 700px */
+
+@media (min-width: 700px) {
+  .section-product {
+    max-width: 600px;
+
+    /* The Flexbox Template */
+    flex-direction: row;
+  }
+  .section-product__b-img {
+    background: url(../images/image-product-desktop.jpg);
+    width: 300px;
+    height: 450px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  .section-product__content-area {
+    max-width: 300px;
+    padding: 32px;
+    /* background-color: #fff; */
+  }
+
+  /* The text-area */
+
+  .section-product__subtitle {
+    margin-bottom: 20px;
+    margin-left: -0.5px;
+  }
+
+  .section-product__title {
+    margin-bottom: 24px;
+  }
+
+  .section-product__description {
+    margin-bottom: 29px;
+  }
+
+  /* The price-area */
+
+  .section-product__price-area {
+    margin-bottom: 30px;
+  }
+
+  /* The button-area */
+
+  .btn:link,
+  .btn:visited {
+    margin-left: 0px;
+
+    /* To add the padding */
+    width: 236px;
+    height: 48px;
+  }
+}

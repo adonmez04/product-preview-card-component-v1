@@ -61,6 +61,8 @@ body {
   background-color: #fff;
 }
 
+/* The text-area */
+
 .section-product__text-area {
   /* empty */
 }
@@ -100,6 +102,8 @@ body {
   margin-bottom: 24px;
 }
 
+/* The price-area */
+
 .section-product__price-area {
   display: flex;
   align-items: center;
@@ -128,6 +132,8 @@ body {
   color: #6c7289;
 }
 
+/* The button-area */
+
 .btn-area {
   /* empty */
 }
@@ -139,13 +145,15 @@ body {
 }
 
 .btn:link,
-.btn:active {
+.btn:visited {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
+
+  transition: all 0.3s;
 
   text-decoration: none;
   margin-left: 1px;
@@ -162,4 +170,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 11.61px;
+}
+
+.btn:hover,
+.btn:active {
+  background: #1a4032;
 }
